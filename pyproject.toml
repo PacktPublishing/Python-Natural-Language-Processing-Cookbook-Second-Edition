@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "book-2nd-ed"
+version = "0.1.0"
+description = "\"Second edition of Python NLP Cookbook\""
+authors = ["zhenya-pl <zhenya@practicallinguist.com>"]
+readme = "README.md"
+packages = [{include = "book_2nd_ed"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
