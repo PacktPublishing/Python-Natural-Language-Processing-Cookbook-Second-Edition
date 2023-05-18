@@ -8,6 +8,9 @@ packages = [{include = "book_2nd_ed"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+jupyter = "^1.0.0"
+nltk = "^3.8.1"
+spacy = "^3.5.3"
 
 
 [build-system]
