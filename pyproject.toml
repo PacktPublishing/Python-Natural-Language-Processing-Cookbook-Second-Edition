@@ -11,7 +11,11 @@ python = "^3.8"
 jupyter = "^1.0.0"
 nltk = "^3.8.1"
 spacy = "^3.5.3"
-
+openai = "^0.27.7"
+transformers = "^4.29.2"
+spacy-experimental = "^0.6.2"
+thinc = "^8.1.10"
+textblob = "^0.17.1"
 
 [build-system]
 requires = ["poetry-core"]
