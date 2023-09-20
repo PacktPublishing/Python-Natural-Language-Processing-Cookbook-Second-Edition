@@ -4,13 +4,12 @@ version = "0.1.0"
 description = "\"Second edition of Python NLP Cookbook\""
 authors = ["zhenya-pl <zhenya@practicallinguist.com>"]
 readme = "README.md"
-packages = [{include = "book_2nd_ed"}]
+#packages = [{include = "book_2nd_ed"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
 jupyter = "^1.0.0"
 nltk = "^3.8.1"
-spacy = "^3.5.3"
 openai = "^0.27.7"
 transformers = "^4.29.2"
 spacy-experimental = "^0.6.2"
@@ -25,6 +24,8 @@ sentence-transformers = "^2.2.2"
 torch = ">=2.0.0, !=2.0.1"
 llama-index = "^0.7.8"
 langdetect = "^1.0.9"
+spacy = "^3.6.1"
+evaluate = "^0.4.0"
 
 [build-system]
 requires = ["poetry-core"]
