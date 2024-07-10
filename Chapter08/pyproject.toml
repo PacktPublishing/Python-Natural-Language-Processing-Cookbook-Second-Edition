@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "chapter08"
+version = "0.1.0"
+description = "A poetry configuration for chapter-8 of the NLP Cookbook"
+authors = ["Saurabh Chakravarty"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.42.3"
+datasets = "^2.20.0"
+ipykernel = "^6.29.5"
+jupyter = "^1.0.0"
+torch = "^2.3.1"
+evaluate = "^0.4.2"
+scipy = "^1.14.0"
+scikit-learn = "^1.5.1"
+sentencepiece = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
