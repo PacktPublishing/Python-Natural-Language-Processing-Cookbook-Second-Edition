@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "chapter09"
+version = "0.1.0"
+description = "A poetry configuration for chapter-9 of the NLP cookbook"
+authors = ["Saurabh Chakravarty <saurabc@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+transformers = "^4.39.3"
+ipykernel = "^6.29.5"
+jupyter = "^1.0.0"
+torch = "^2.3.1"
+accelerate = "^0.32.1"
+farm-haystack = {extras = ["inference"], version = "^1.26.2"}
+nltk = "^3.8.1"
+matplotlib = "^3.9.1"
+spacy = "^3.7.5"
+anchor-exp = "^0.0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
