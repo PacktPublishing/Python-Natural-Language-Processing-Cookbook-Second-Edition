@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "chapter10"
+version = "0.1.0"
+description = "A poetry configuration for chapter-10 of the NLP Cookbook"
+authors = ["Saurabh Chakravarty <saurabc@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+huggingface-hub = "^0.23.5"
+torch = "^2.3.1"
+transformers = "^4.42.4"
+jupyter = "^1.0.0"
+ipykernel = "^6.29.5"
+accelerate = "^0.32.1"
+bitsandbytes = "^0.43.1"
+sentencepiece = "^0.2.0"
+protobuf = "^5.27.2"
+langchain = "^0.2.10"
+langchain-community = "^0.2.9"
+docarray = "^0.40.0"
+langchain-experimental = "^0.0.62"
+langchain-openai = "^0.1.17"
+google-search-results = "^2.4.2"
+numexpr = "^2.10.1"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
